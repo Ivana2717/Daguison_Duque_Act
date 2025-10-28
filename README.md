@@ -114,15 +114,15 @@ members (id, name, email, timestamps)
 
 app/
 ├── Http/Controllers/
-│   ├── CategoryController.php      # Category CRUD operations
-│   ├── BookController.php          # Book CRUD operations
-│   ├── MemberController.php        # Member CRUD operations
-│   └── BorrowRecordController.php  # Borrow record CRUD operations
+│   ├── CategoryController.php
+│   ├── BookController.php
+│   ├── MemberController.php
+│   └── BorrowRecordController.php
 ├── Models/
-│   ├── Category.php                # Category model with relationships
-│   ├── Book.php                    # Book model with relationships
-│   ├── Member.php                  # Member model with relationships
-│   └── BorrowRecord.php            # Borrow record model with relationships
+│   ├── Category.php
+│   ├── Book.php
+│   ├── Member.php
+│   └── BorrowRecord.php
 
 database/
 ├── migrations/
@@ -131,27 +131,27 @@ database/
 │   ├── create_members_table.php
 │   └── create_borrow_records_table.php
 └── seeders/
-    └── LibrarySeeder.php           # Sample data seeder
+    └── LibrarySeeder.php
 
 resources/views/
 ├── layouts/
-│   └── app.blade.php              # Main layout template
+│   └── app.blade.php
 ├── categories/
-│   ├── index.blade.php            # Categories listing
-│   ├── create.blade.php           # Create category form
-│   └── edit.blade.php             # Edit category form
+│   ├── index.blade.php
+│   ├── create.blade.php
+│   └── edit.blade.php
 ├── books/
-│   ├── index.blade.php            # Books listing
-│   ├── create.blade.php           # Create book form
-│   └── edit.blade.php             # Edit book form
+│   ├── index.blade.php
+│   ├── create.blade.php
+│   └── edit.blade.php
 ├── members/
-│   ├── index.blade.php            # Members listing
-│   ├── create.blade.php           # Create member form
-│   └── edit.blade.php             # Edit member form
+│   ├── index.blade.php
+│   ├── create.blade.php
+│   └── edit.blade.php
 └── borrow_records/
-    ├── index.blade.php            # Borrow records listing
-    ├── create.blade.php           # Create borrow record form
-    └── edit.blade.php             # Edit borrow record form
+    ├── index.blade.php
+    ├── create.blade.php
+    └── edit.blade.php
 
 ## 🎯 Usage
 
